@@ -33,7 +33,7 @@ export default function Menu() {
             <nav className="menu__container pl-6 pr-4 overflow-y-scroll myScroll">
 
                 <Collapse iconName="fas fa-home" name="Dashboard" nParent={nParent} parent={parent} setNParent={setNParent} value active={active}>
-                    <SubMenu name="eCommerce" iconName="far fa-circle" active={active} setActive={setActive} collapse="dashboard" setParent={setParent} setNParent={setNParent} loc="/dashboard/ecommerce"/>
+                    <SubMenu name="eCommerce" iconName="far fa-circle" active={active} setActive={setActive} collapse="dashboard" setParent={setParent} setNParent={setNParent} loc="/admin_dashboard"/>
                     <SubMenu name="Analytics" iconName="far fa-circle" active={active} setActive={setActive} collapse="dashboard" setParent={setParent} setNParent={setNParent}/>
                 </Collapse>
 

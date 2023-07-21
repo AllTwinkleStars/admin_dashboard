@@ -11,10 +11,10 @@ export default function DashBoard() {
             <section className="max-w-screen-xl mx-auto pt-6 pb-4 px-10">
                 <Header/>
                 <Routes>
-                    <Route path="/dashboard/ecommerce" element={<ECommerce/>} />
+                    <Route path="/admin_dashboard" element={<ECommerce/>} />
                     <Route path="/user/list" element={<Users/>} />
                     <Route path="/user/view" element={<UserDetail/>} />
-                    <Route path="/" element={<Navigate to="/dashboard/ecommerce" />} />
+                    <Route path="/" element={<Navigate to="/admin_dashboard" />} />
                 </Routes>
             </section>
         </main>

@@ -3,7 +3,7 @@ const pages = [
     {
         id: 1,
         title: "eCommerce Dashboard",
-        path: "/dashboard/ecommerce",
+        path: "/admin_dashboard",
         Icon: HomeIcon
     },
     {

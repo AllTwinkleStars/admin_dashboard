@@ -18,7 +18,7 @@ const initialState = {
         }
     },
     details: {...JSON.parse(localStorage.getItem(KEY))},
-    currentLoc: '/dashboard/ecommerce',
+    currentLoc: '/admin_dashboard',
     menuState: false
 }
 
