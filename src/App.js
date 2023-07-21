@@ -5,7 +5,7 @@ import Menu from './components/Menu';
 import {useLocation} from "react-router-dom"
 import NotFound from './components/NotFound';
 
-const allPaths = ["/dashboard/ecommerce", "/user/list", "/user/view", "/"]
+const allPaths = ["/", "/user/list", "/user/view"]
 
 function App() {
   const { pathname } = useLocation();
